@@ -1,0 +1,5 @@
+Resource,Command
+UploadFile,Set-AutoUpdate.ps1|c:\\windows\\temp
+UploadFile,runautoupdate.bat|c:\\windows\\temp
+CreateProcess,cmd.exe /c "cd %TEMP% && runautoupdate.bat %TEMP%"
+

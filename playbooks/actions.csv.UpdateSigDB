@@ -1,0 +1,2 @@
+Resource,Command
+CreateProcess,cmd.exe /c ""c:\\program files\\confer\\repcli.exe"" UpdateAVSignature

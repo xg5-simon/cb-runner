@@ -1,0 +1,9 @@
+Resource,Command
+DeleteFile,c:\\windows\\carbonblack\\7za.exe
+DeleteFile,c:\\windows\\carbonblack\\Investigation.zip
+DeleteFile,c:\\windows\\carbonblack\\artifactme.bat
+CreateProcess,cmd.exe /c "del /f /q /s "c:\windows\carbonblack\Investigation" > NUL"
+UploadFile,/root/scripts/7za.exe|c:\\windows\carbonblack
+UploadFile,/root/scripts/Investigation.zip|c:\\windows\carbonblack
+UploadFile,/root/scripts/artifactme.bat|c:\\windows\carbonblack
+CreateProcess,cmd.exe /c "cd c:\windows\carbonblack && artifactme.bat c:\windows\carbonblack"

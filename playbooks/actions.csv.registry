@@ -1,0 +1,6 @@
+Resource,Command
+ReadRegKey,HKLM\Software\Microsoft\Windows\CurrentVersion\Run
+SetRegKey,HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\smb1|0
+CreateRegKey,HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnce\test
+DeleteRegKey,HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnce\test
+DeleteRegValue,HKLM\Software\Microsoft\Windows\CurrentVersion\Run\yRgwHmXXFJQDC
