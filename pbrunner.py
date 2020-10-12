@@ -192,9 +192,9 @@ def search_device(query, device):
 
 
 def main():
-    print(pyfiglet.figlet_format('PB RUNNER >>>', font="slant"))
+    print(pyfiglet.figlet_format('CB RUNNER >>>', font="slant"))
 
-    parser = build_cli_parser("Playbook Runner")
+    parser = build_cli_parser("CB Runner")
     subparsers = parser.add_subparsers(help="Sensor commands", dest="command_name")
 
     parser.add_argument("-J", "--job",
