@@ -1,6 +1,0 @@
-Resource,Command
-DeleteFile,c:\\windows\\temp\\test.ps1
-DeleteFile,c:\\windows\\temp\\test.bat
-CreateProcess,cmd.exe /c "ping.exe www.google.com"
-UploadFile,test.ps1|c:\\windows\\temp
-UploadFile,test.bat|c:\\windows\\temp

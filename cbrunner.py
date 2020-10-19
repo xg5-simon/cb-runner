@@ -198,7 +198,7 @@ def main():
     subparsers = parser.add_subparsers(help="Sensor commands", dest="command_name")
 
     parser.add_argument("-J", "--job",
-                        action="store", required=False, default="examplejob",
+                        action="store", required=False, default="job",
                         help="Name of the job to run.")
     parser.add_argument("-LR", "--lrprofile",
                         action="store", required=False,
