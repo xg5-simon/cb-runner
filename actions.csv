@@ -1,7 +1,0 @@
-Resource,Command
-DeleteFile,c:\\windows\\temp\\Set-AutoUpdate.ps1
-DeleteFile,c:\\windows\\temp\\runautoupdate.bat
-UploadFile,/home/simon/cb-runner/Set-AutoUpdate.ps1|c:\\windows\\temp
-UploadFile,/home/simon/cb-runner/runautoupdate.bat|c:\\windows\\temp
-CreateProcess,cmd.exe /c "cd %TEMP% && runautoupdate.bat %TEMP%"
-CreateProcess,cmd.exe /c "C:\Program Files\confer\RepCLI.exe updateConfig"

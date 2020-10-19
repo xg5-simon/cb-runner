@@ -1,2 +1,2 @@
 @echo off
-PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& '.\Set-AutoUpdate.ps1' %*"
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& 'C:\Windows\Temp\Set-AutoUpdate.ps1' %*"

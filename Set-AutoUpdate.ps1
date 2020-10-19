@@ -1,1 +1,0 @@
-(Get-Content -path 'C:\Program Files\Confer\cfg.ini' -Raw) -replace 'AutoUpdate=0','AutoUpdate=1' | Set-Content -Path 'C:\Program Files\Confer\cfg.ini'
