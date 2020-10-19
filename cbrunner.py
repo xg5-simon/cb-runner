@@ -3,7 +3,6 @@
 import csv
 import datetime
 import time
-import pyfiglet
 import json
 import sys
 
@@ -192,7 +191,6 @@ def search_device(query, device):
 
 
 def main():
-    print(pyfiglet.figlet_format('CB RUNNER >>>', font="slant"))
 
     parser = build_cli_parser("CB Runner")
     subparsers = parser.add_subparsers(help="Sensor commands", dest="command_name")
